@@ -40,6 +40,7 @@
           <p>g: <span id="rr-g"></span></p>
         </div>
       </div>
+      <div id="a"></div>
     </main>
     
     <script>
@@ -70,6 +71,7 @@
           print3('rr-a', a, 'rr-b', b, 'rr-g', g); //回転値
 
           if(xx<x) xx=x;
+          document.getElementById("a").innerHTML = xx;
 
           // function
           function obj2NumberFix(obj, fix_deg){
